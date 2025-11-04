@@ -5,11 +5,11 @@ on:
     branches:
       - main
     paths:
-      - "ressources/s5/thomas-ca/projets/ci-cd-symfony/**"
+      - "ressources/s5/thomas-la/projets/ci-cd-symfony/**"
 
 defaults:
   run:
-    working-directory: ressources/s5/thomas-ca/projets/ci-cd-symfony
+    working-directory: ressources/s5/thomas-la/projets/ci-cd-symfony
 
 jobs:
   ci-symfony:
